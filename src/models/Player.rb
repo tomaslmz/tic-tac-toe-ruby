@@ -1,8 +1,7 @@
 class Player
     attr_reader :name
-    
-    def initialize(name, number)
+
+    def initialize(name)
         @name = name
-        @mark = number == 1 ? 'X' : 'O'
     end
 end
